@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head><title></title>
+        <style>
+            body{
+                background: url("bg.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+            }
+
+            div{
+                border:red solid 1px;
+            }
+            .letter{
+                background: url("page.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                padding: 100px;
+                font-size: 1.8em;
+                margin: auto ;
+                width: 70vw;
+                height: 1000px;
+            }
+
+            p{
+                text-align: justify;
+                translate: 30px 30px;
+                line-height: 50px;
+            }
+
+            h4{
+                line-height: 50px;
+            }
+
+            .dear{
+                 translate: 30px 30px;
+            }
+
+            .me{
+                translate: 30px;
+                text-align: right;
+            }
+
+            @media(min-width: 1400px){
+                .letter{
+                    padding:200px;
+                }
+                p{
+                text-align: justify;
+                translate: 30px -90px;
+                line-height: 75px;
+            }
+
+            h4{
+                line-height: 65px;
+            }
+
+            .dear{
+                translate: 30px -120px;
+            }
+
+            .me{
+               translate: 30px -30px;
+            }
+            }
+        </style></head>
+    <body>
+        <div class="letter">
+            <h4 class="dear">My dearest,<br>Jasmin with an e</h4>
+            <p>As our days together count to an end, I would like to send this letter as my gratitude. In my junior years I was alone in my academic ventures. When I transitioned to this humble school I ended up being separated with my dearest friends from BKLC. For four years I was alone, with no one to talk about niche topics. It resulted in me being less confident and more silent honestly. I remember during our first encounter, I saw your glasses and you reeked of nerd energy. I sealed my fate when I rushed to put my bag next to your chosen chair. Thank you so much, you given me the energy to become more talkative and to be myself. With you I've learned more about myself, I felt free for the first time in years. I hope our friendship won't end even if we don't get to sit together anymore.</p>
+            <h4 class="me">Forever your <br>Emo_67_LOVER5858</h4>
+        </div>
+
+        <audio src="blue.mp3" class="audio"></audio>
+    </body>
+    <script>
+        window.addEventListener("DOMContentLoaded", event => {
+  const audio = document.querySelector("audio");
+  audio.volume = 0.2;
+  audio.play();
+});
+    </script>
+</html>
