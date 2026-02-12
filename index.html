@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head><title></title>
+        <style>
+            body{
+                background: url("bg.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 3000px;
+            }
+
+            div{
+                border:red solid 0px;
+            }
+            .letter{
+                background: url("page.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                padding: 100px;
+                font-size: 1.8em;
+                margin: 100px auto auto auto ;
+                width: 70vw;
+                height: 1100px;
+            }
+
+            .letter-2{
+                background: url("page 2.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                padding: 100px;
+                font-size: 1.8em;
+                margin: auto ;
+                width: 70vw;
+                height: 1100px;
+            }
+
+            p{
+                translate: 50px 10px;
+                text-align: justify;
+                line-height: 50px;
+            }
+
+            .letter-2 p{
+                translate: -10px;
+            }
+
+            h4{
+                line-height: 50px;
+            }
+
+            .dear{
+                 translate: 30px 0px;
+            }
+
+            .me{
+                translate: -10px 30px;
+                text-align: right;
+            }
+
+          
+            @media(min-width: 1400px){
+                body{
+                    height:3200px;
+                }
+                .letter{
+                    padding:200px;
+                }
+                p{
+                text-align: justify;
+                translate: 30px -90px;
+                line-height: 75px;
+            }
+
+            .letter-2 p{
+                translate: -70px;
+            }
+
+            h4{
+                line-height: 65px;
+            }
+
+            .dear{
+                translate: 30px -120px;
+            }
+
+            .me{
+               translate: -80px -30px;
+            }
+            }
+
+              .image{
+                margin: auto;
+                background: url("1.png");
+                background-size: cover;
+                width: 300px;
+                height: 300px;
+            }
+
+            .image:hover{
+                background: url("2.png");
+                 background-size: cover;
+            }
+        </style></head>
+    <body>
+
+        <div class="letter">
+            <h4 class="dear">My dearest,<br>Jasmin with an e</h4>
+            <p>As our days together count to an end, I would like to send this letter as my gratitude. In my junior years I was alone in my academic ventures. When I transitioned to this school I ended up being separated with my friends from BKLC. For four years I was alone, with no one to talk about niche topics. It resulted in me being less confident and more silent honestly. Those years barely gave me any good memories, infact I hated my junior years, I hated myself for being so "weird" and socially dense. I remember during our first encounter, I saw your glasses and you reeked of nerd energy. I sealed my fate when I rushed to put my bag next to your chosen chair. Thank you so much, you gave me the energy to become more talkative and to be myself, more "weird". With you I've learned more about myself, I felt free for the first time in years.</p>
+        </div>
+        <div class="letter-2">
+            <p>I get to just talk freely, I was so happy i was able to talk about the weirdest things and finally have someone to hear me out. I finally had someone to eat my lunch with, and not be alone in a room, eating alone. I hope our friendship won't end even if we don't get to sit together anymore. Look man i know life is tough for us "weirdos", it's so hard to find people who would just accept and understand you. I am really am so greatful for you, I'm gonna miss you so much bro. How hard life is, don't forget that you are valid for the feelings you feel, you deserve to be heard out. No one deserves to be alone, i know we don't like talking about mushy stuff. But i want you to know that i care for you. I'm sorry that Im not that great of a therapist. I suck at expressing my emotions, we both are huh? But i'll be here listening, not much talking, i suck at that but please don't forget about me. Thank you so much for being my brotato</p>
+            <h4 class="me">Sincerly, <br> your Emo_67_LOVER5858</h4>
+        </div>
+
+        <div class="image" onclick="play()">
+        </div>
+
+       
+    <audio id="audio" src="blue.mp3"></audio>
+
+    </body>
+
+    <script>
+          function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+
+</html>
